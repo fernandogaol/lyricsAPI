@@ -10,7 +10,7 @@ body {
   margin: auto;
   text-align: center;
   background-color: #21421e;
-  background-image: url("./img/background.jpg");
+  background-image: url("img/background.jpg");
   position: relative;
   background-size: cover;
   max-height: 100vh;
