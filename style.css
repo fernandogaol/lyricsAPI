@@ -28,6 +28,7 @@ fieldset {
   padding: 30px;
   border: 2px solid #21421e;
   border-radius: 7px;
+  margin: auto;
 }
 label {
   font-size: 22px;
@@ -38,6 +39,7 @@ label {
 form {
   text-align: center;
   padding: 20px;
+  margin: auto;
 }
 
 input {
