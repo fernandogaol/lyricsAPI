@@ -6,12 +6,14 @@
 }
 
 body {
-  width: 85%;
+  max-width: 90%;
   margin: auto;
   text-align: center;
-  background-image: url("./img/background.jpg");
+  background-color: #21421e;
+  /* background-image: url("./img/background.jpg"); */
+  /* position: relative;
   background-size: cover;
-  height: 100vh;
+  max-height: 100vh;*/
 }
 body h1 {
   color: #c0dcaf;
@@ -35,12 +37,12 @@ label {
 
 form {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 
 input {
   text-align: center;
-  width: 150px;
+  width: 180px;
   margin: auto;
   height: 28px;
   padding: 10px;
