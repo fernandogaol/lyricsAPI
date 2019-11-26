@@ -21,13 +21,14 @@ body h1 {
   font-weight: bolder;
 }
 
-fieldset {
+.form-wrapper {
   background-color: #c0dcaf;
   height: 300px;
   display: flex;
   border: 2px solid #21421e;
   border-radius: 7px;
   margin: auto;
+  padding: 50px;
 }
 label {
   font-size: 22px;
@@ -38,7 +39,6 @@ label {
 }
 
 form {
-  text-align: center;
   margin: auto;
   margin-top: 20px;
 }
@@ -71,5 +71,4 @@ h4 {
   margin: auto;
   padding: 15px;
   font-family: serif;
-  z-index: 1;
 }
