@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Lyrics</title>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Song Lyrics</h1>
+      <form action="#" class="js-search-form">
+        <fieldset name="lyric-search">
+          <label for="query-artist">Artist:</label>
+          <input
+            type="text"
+            class="js-query-artist"
+            placeholder="Ed Sheeran"
+            required
+          />
+          <label for="query-title">Song title:</label>
+          <input
+            type="text"
+            class="js-query-title"
+            placeholder="Thinking Out oud"
+            required
+          />
+          <button type="submit">Search</button>
+        </fieldset>
+      </form>
+      <section class="hidden" id="results"></section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
